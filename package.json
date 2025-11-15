@@ -1,5 +1,5 @@
 {
-  "name": "cardiocap",
+  "name": "cardiocap1",
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm start --prefix frontend\" \"npm run server --prefix backend\""
