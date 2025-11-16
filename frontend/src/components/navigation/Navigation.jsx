@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-// import Logo from '@/images/Icon.png';
+import Logo from '../../images/logo.png';
 import MenuComponent from './MenuComponent';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
@@ -11,7 +11,7 @@ export const Navigation = () => {
     return (
         <div className='absolute top-4 left-1/2 transform -translate-x-1/2 flex h-[50px] justify-between bg-white shadow-md rounded-md overflow-hidden w-[90%] max-w-[1024px]'>
             <div className='flex m-1'>
-                {/* <img src={Logo} className='h-full mx-5' alt='Logo' /> */}
+                <img src={Logo} className='h-full mx-5' alt='Logo' />
                 <h1 className='text-md font-bold m-auto'>
                     CardioCap
                 </h1>

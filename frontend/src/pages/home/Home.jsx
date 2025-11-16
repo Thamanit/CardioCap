@@ -6,17 +6,17 @@ import { getApiURL } from '../../lib/route';
 
 const Home = () => {
     // Todo Code Company Here
-    const [companys, setCompanys] = React.useState([]);
-    useEffect(()=>{
-        axios.get(`${getApiURL()}/companys`)
-        .then((response)=>{
-            // Todo Code Set Company Here
-            setCompanys(response.data);
-        })
-        .catch((error)=>{
-            toast.error('Error Fetching Companies');
-        });
-    },[]);
+    // const [companys, setCompanys] = React.useState([]);
+    // useEffect(()=>{
+    //     axios.get(`${getApiURL()}/companys`)
+    //     .then((response)=>{
+    //         // Todo Code Set Company Here
+    //         setCompanys(response.data);
+    //     })
+    //     .catch((error)=>{
+    //         toast.error('Error Fetching Companies');
+    //     });
+    // },[]);
 
     const [search,setSearch] = useState("");
 
