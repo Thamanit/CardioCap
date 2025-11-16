@@ -5,7 +5,7 @@ import Layout from './layout/Layout';
 import Home from './pages/home/Home';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
-// import UploadImage from './pages/UploadImage';
+import UploadImage from './pages/UploadImage';
 // import Results from './pages/Results';
 // import AdminDashboard from './pages/admin/AdminDashboard';
 
@@ -82,7 +82,7 @@ function App() {
               {/* <Route index element={<AdminDashboard />} /> */}
             </Route>
             <Route path='*' element={<h1>Not Found</h1>} />
-            {/* <Route path="/upload" element={<ProtectedRoute><UploadImage /></ProtectedRoute>} /> */}
+            <Route path="/upload" element={<ProtectedRoute><UploadImage /></ProtectedRoute>} />
             {/* <Route path="/results" element={<Results />} /> */}
           </Route>
         </Routes>
