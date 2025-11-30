@@ -8,9 +8,9 @@ const HomeHeader = () => {
     }
     return (
         <div className=''>
-            <h1 className="text-3xl font-bold mb-4 flex gap-2">"Detecting <p className='text-yellow-300 text-shadow'>diabetes</p> right at your fingertips and vision."</h1>
+            <h1 className="text-3xl font-bold mb-4 flex gap-2">"Detecting <p className='text-yellow-300 text-shadow'>Heart Failure</p> right at your finger."</h1>
             <p className="mb-4 text-lg">
-                Painless. Diabetes Detection with BioTrace
+                Painless. Heart Failure Detection with CardioCap
             </p>
             <Link to="/upload">
                 <button
